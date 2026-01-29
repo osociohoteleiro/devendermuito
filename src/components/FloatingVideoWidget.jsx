@@ -12,7 +12,7 @@ export default function FloatingVideoWidget({ videoUrl }) {
 
       const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
 
-      if (scrollPercent >= 50 && !isVisible) {
+      if (scrollPercent >= 10 && !isVisible) {
         setIsVisible(true)
       }
     }
