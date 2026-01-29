@@ -143,7 +143,7 @@ export default function App() {
       <VideoModal
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
-        videoUrl="" // Adicione a URL do YouTube/Vimeo aqui quando tiver o vídeo
+        videoUrl="https://youtu.be/HFe5xGsBsNo"
       />
 
       <Routes>
