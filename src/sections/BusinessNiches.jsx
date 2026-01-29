@@ -581,14 +581,15 @@ export default function BusinessNiches({ onOpenSignup }) {
               <h3 className="font-bold text-gray-900 mb-1 group-hover:text-violet-700 transition-colors">
                 {niche.title}
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 mb-3">
                 {niche.shortDesc}
               </p>
 
-              {/* Arrow indicator */}
-              <div className="absolute bottom-4 right-4 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
-                <ArrowRight className="w-4 h-4 text-gray-600" />
-              </div>
+              {/* Link Saiba mais */}
+              <span className="inline-flex items-center gap-1 text-sm font-semibold text-violet-600 group-hover:text-violet-800 transition-colors">
+                Saiba mais
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </span>
 
               {/* Hover glow effect */}
               <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${niche.color} opacity-0 group-hover:opacity-10 transition-opacity`} />
