@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import { X, Building2, Store, ArrowRight, Sparkles, ArrowLeft, Eye, EyeOff, Check, Loader2 } from 'lucide-react'
 import PhoneInput from './PhoneInput'
 
-// URL da API - ajuste conforme ambiente
-const API_URL = 'http://localhost:3001/api'
+// URL da API - usa produção se não for localhost
+const API_URL = window.location.hostname === 'localhost'
+  ? 'http://localhost:3001/api'
+  : 'https://osh-apps-producao-api-prod.mxsllz.easypanel.host/api'
 
 // Função para calcular força da senha
 const calculatePasswordStrength = (password) => {
@@ -156,7 +158,7 @@ export default function SignupModal({ isOpen, onClose, onOpenLogin }) {
     }
 
     try {
-      const response = await fetch(`${API_URL}/auth/register`, {
+      const response = await fetch(`${API_URL}/auth/register-business`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
