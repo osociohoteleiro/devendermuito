@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import SignupModal from './components/SignupModal'
 import LoginModal from './components/LoginModal'
 import VideoModal from './components/VideoModal'
+import FloatingVideoWidget from './components/FloatingVideoWidget'
 import Hero from './sections/Hero'
 import ProductShowcase from './sections/ProductShowcase'
 import PlatformFeatures from './sections/PlatformFeatures'
@@ -114,6 +115,7 @@ function LandingPage({ openSignup, openLogin, openVideo }) {
         <CTA onOpenSignup={openSignup} />
       </main>
       <Footer />
+      <FloatingVideoWidget videoUrl="https://youtu.be/HFe5xGsBsNo" />
     </div>
   )
 }
