@@ -5,51 +5,7 @@ import {
 } from 'lucide-react'
 
 const features = [
-  {
-    icon: Palette,
-    before: 'R$ 500+ por arte',
-    title: 'Crie artes profissionais sozinho',
-    description: 'Tenha autonomia para criar designs incríveis para posts, stories, banners e anúncios. Se já tem designer, potencialize o trabalho dele com IA.',
-    highlight: 'Artes em segundos',
-    color: 'from-pink-500 to-rose-500',
-    bgColor: 'bg-pink-50',
-  },
-  {
-    icon: Share2,
-    before: 'Horas de trabalho manual',
-    title: 'Redes sociais no piloto automático',
-    description: 'A IA cria artes, escreve copys, posta no Instagram e Facebook, e entrega relatórios. Faça sozinho ou libere sua equipe para tarefas estratégicas.',
-    highlight: 'Poste 30 dias em 30 minutos',
-    color: 'from-violet-500 to-purple-500',
-    bgColor: 'bg-violet-50',
-  },
-  {
-    icon: Target,
-    before: '20% de comissão',
-    title: 'Anúncios que vendem sozinhos',
-    description: 'Crie campanhas segmentadas no Facebook, Instagram e Google com poucos cliques. Tenha autonomia ou potencialize seu gestor de tráfego.',
-    highlight: 'Zero comissão sobre vendas',
-    color: 'from-orange-500 to-amber-500',
-    bgColor: 'bg-orange-50',
-  },
-  {
-    icon: MessageSquare,
-    before: 'Vendas perdidas por demora',
-    title: 'Atendimento 24/7 com IA',
-    description: 'IA atende WhatsApp, Instagram e Facebook aplicando técnicas de vendas. Funciona sozinha ou junto com sua equipe, potencializando resultados.',
-    highlight: 'Resposta em 3 segundos',
-    color: 'from-green-500 to-emerald-500',
-    bgColor: 'bg-green-50',
-  },
-  {
-    icon: Code2,
-    before: 'R$ 3.000+ por página',
-    title: 'Páginas de vendas em 60 segundos',
-    description: 'Crie landing pages e páginas de vendas de alta conversão sem saber programar. Tenha autonomia ou acelere o trabalho do seu time.',
-    highlight: 'Sem conhecimento técnico',
-    color: 'from-cyan-500 to-blue-500',
-    bgColor: 'bg-cyan-50',
-  },
+  // 1. Estratégia completa com IA
   {
     icon: Lightbulb,
     before: 'Semanas de planejamento',
@@ -59,6 +15,57 @@ const features = [
     color: 'from-yellow-500 to-orange-500',
     bgColor: 'bg-yellow-50',
   },
+  // 2. Anúncios que vendem sozinhos
+  {
+    icon: Target,
+    before: '20% de comissão',
+    title: 'Anúncios que vendem sozinhos',
+    description: 'Crie campanhas segmentadas no Facebook, Instagram e Google com poucos cliques. Tenha autonomia ou potencialize seu gestor de tráfego.',
+    highlight: 'Zero comissão sobre vendas',
+    color: 'from-orange-500 to-amber-500',
+    bgColor: 'bg-orange-50',
+  },
+  // 3. Atendimento 24/7 com IA
+  {
+    icon: MessageSquare,
+    before: 'Vendas perdidas por demora',
+    title: 'Atendimento 24/7 com IA',
+    description: 'IA atende WhatsApp, Instagram e Facebook aplicando técnicas de vendas. Funciona sozinha ou junto com sua equipe, potencializando resultados.',
+    highlight: 'Resposta em 3 segundos',
+    color: 'from-green-500 to-emerald-500',
+    bgColor: 'bg-green-50',
+  },
+  // 4. Redes sociais no piloto automático
+  {
+    icon: Share2,
+    before: 'Horas de trabalho manual',
+    title: 'Redes sociais no piloto automático',
+    description: 'A IA cria artes, escreve copys, posta no Instagram e Facebook, e entrega relatórios. Faça sozinho ou libere sua equipe para tarefas estratégicas.',
+    highlight: 'Poste 30 dias em 30 minutos',
+    color: 'from-violet-500 to-purple-500',
+    bgColor: 'bg-violet-50',
+  },
+  // 5. Crie artes profissionais sozinho
+  {
+    icon: Palette,
+    before: 'R$ 500+ por arte',
+    title: 'Crie artes profissionais sozinho',
+    description: 'Tenha autonomia para criar designs incríveis para posts, stories, banners e anúncios. Se já tem designer, potencialize o trabalho dele com IA.',
+    highlight: 'Artes em segundos',
+    color: 'from-pink-500 to-rose-500',
+    bgColor: 'bg-pink-50',
+  },
+  // 6. Páginas de vendas em 60 segundos
+  {
+    icon: Code2,
+    before: 'R$ 3.000+ por página',
+    title: 'Páginas de vendas em 60 segundos',
+    description: 'Crie landing pages e páginas de vendas de alta conversão sem saber programar. Tenha autonomia ou acelere o trabalho do seu time.',
+    highlight: 'Sem conhecimento técnico',
+    color: 'from-cyan-500 to-blue-500',
+    bgColor: 'bg-cyan-50',
+  },
+  // 7. As menores taxas do mercado
   {
     icon: CreditCard,
     before: 'Taxas que comem seu lucro',
@@ -68,6 +75,7 @@ const features = [
     color: 'from-emerald-500 to-teal-500',
     bgColor: 'bg-emerald-50',
   },
+  // 8. Tudo em uma única plataforma
   {
     icon: Layers,
     before: 'R$ 1.500+/mês em ferramentas',
@@ -77,6 +85,7 @@ const features = [
     color: 'from-indigo-500 to-violet-500',
     bgColor: 'bg-indigo-50',
   },
+  // 9. Solução completa para hoteleiros
   {
     icon: Building2,
     before: 'Sistemas desconectados',
